@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="what_do_you_want_to_share">What do you want to share?</string>
+    <string name="currently_listening_to_x_by_x">Currently listening to %1$s by %2$s.</string>
+    <string name="the_audio_file">The audio file</string>
+    <string name="do_you_want_to_set_x_as_ringtone">Do you want to set %1$s as your ringtone?</string>
+    <string name="x_has_been_set_as_ringtone">Set %1$s as your ringtone.</string>
+    <string name="action_set_as_ringtone">Set as ringtone</string>
+    <string name="action_share">Share</string>
+    <string name="action_settings">"Settings"</string>
+    <string name="action_grant">Grant</string>
+    <string name="action_done">Done</string>
+    <string name="action_skip">Skip</string>
+    <string name="action_about">About</string>
+    <string name="action_show_intro">Show intro</string>
+    <string name="action_clear_playlist">Clear playlist</string>
+    <string name="action_playing_queue">Playing queue</string>
+    <string name="action_add_to_favorites">Add to favorites</string>
+    <string name="action_remove_from_favorites">Remove from favorites</string>
+    <string name="action_search">Search</string>
+    <string name="action_play_next">Play next</string>
+    <string name="action_play">Play</string>
+    <string name="action_play_pause">Play/Pause</string>
+    <string name="action_previous">Previous</string>
+    <string name="action_next">Next</string>
+    <string name="action_add_to_playing_queue">Add to playing queue</string>
+    <string name="action_remove_from_playing_queue">Remove from playing queue</string>
+    <string name="action_add_to_playlist">Add to playlist…</string>
+    <string name="action_tag_editor">Tag editor</string>
+    <string name="action_delete_from_device">Delete from device</string>
+    <string name="action_details">Details</string>
+    <string name="action_rename">Rename</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_scan">Scan</string>
+    <string name="action_set_as_start_directory">Set as start directory</string>
+    <string name="albums">Albums</string>
+    <string name="artists">Artists</string>
+    <string name="songs">Songs</string>
+    <string name="playlists">Playlists</string>
+    <string name="unplayable_file">Couldn\u2019t play this song.</string>
+    <string name="biography_unavailable">Couldn\u2019t find the artists biography.</string>
+    <string name="biography">Biography</string>
+    <string name="audio_focus_denied">Audio focus denied.</string>
+    <string name="album">Album</string>
+    <string name="artist">Artist</string>
+    <string name="genre">Genre</string>
+    <string name="album_artist">Album artist</string>
+    <string name="year">Year</string>
+    <string name="track">Track</string>
+    <string name="track_hint">"Track (2 for track 2 or 3004 for CD3 track 4)"</string>
+    <string name="lyrics">Lyrics</string>
+    <string name="album_or_artist_empty">The title or artist is empty.</string>
+    <string name="saving_changes">Saving changes</string>
+    <string name="saving_to_file">Saving to file…</string>
+    <string name="label_details">Details</string>
+    <string name="label_file_name">File name</string>
+    <string name="label_file_path">File path</string>
+    <string name="label_file_size">Size</string>
+    <string name="label_file_format">Format</string>
+    <string name="label_track_length">Length</string>
+    <string name="label_bit_rate">Bitrate</string>
+    <string name="label_sampling_rate">Sampling rate</string>
+    <string name="action_go_to_artist">Go to artist</string>
+    <string name="action_go_to_album">Go to album</string>
+    <string name="label_playing_queue">Playing queue</string>
+    <string name="save_as_playlist">Save as playlist</string>
+    <string name="no_results">No results</string>
+    <string name="action_re_download_artist_image">Update artist image</string>
+    <string name="updated_artist_image">Artist image updated.</string>
+    <string name="could_not_update_artist_image">Couldn\u2019t update artist image.</string>
+    <string name="updating">Updating…</string>
+    <string name="added_title_to_playing_queue">"Added 1 title to the playing queue."</string>
+    <string name="added_x_titles_to_playing_queue">Added %1$d titles to the playing queue.</string>
+    <string name="action_remove_from_playlist">Remove from playlist</string>
+    <string name="action_grid_size">Grid size</string>
+    <string name="action_grid_size_land">Grid size (land)</string>
+    <string name="inserted_x_songs_into_playlist_x">Inserted %1$d songs into the playlist %2$s.</string>
+    <string name="created_playlist_x">Created playlist %1$s.</string>
+    <string name="deleted_playlist_x">Deleted playlist %1$s.</string>
+    <string name="deleted_x_songs">Deleted %1$d songs.</string>
+    <string name="could_not_create_playlist">Couldn\u2019t create playlist.</string>
+    <string name="delete_playlist_x"><![CDATA[Delete the playlist <b>%1$s</b>?]]></string>
+    <string name="clear_playlist_x"><![CDATA[Clear the playlist <b>%1$s</b>? This can\u2019t be undone!]]></string>
+    <string name="delete_x_playlists"><![CDATA[Delete <b>%1$d</b> playlists?]]></string>
+    <string name="delete_song_x"><![CDATA[Delete the song <b>%1$s</b>?]]></string>
+    <string name="delete_x_songs"><![CDATA[Delete <b>%1$d</b> songs?]]></string>
+    <string name="remove_song_x_from_playlist"><![CDATA[Remove the song <b>%1$s</b> from the playlist?]]></string>
+    <string name="remove_x_songs_from_playlist"><![CDATA[Remove <b>%1$d</b> songs from the playlist?]]></string>
+    <string name="delete_song_title">Delete song</string>
+    <string name="delete_songs_title">Delete songs</string>
+    <string name="remove_song_from_playlist_title">Remove song from playlist</string>
+    <string name="remove_songs_from_playlist_title">Remove songs from playlist</string>
+    <string name="rename_playlist_title">Rename playlist</string>
+    <string name="delete_playlist_title">Delete playlist</string>
+    <string name="delete_playlists_title">Delete playlists</string>
+    <string name="clear_playlist_title">Clear playlist</string>
+    <string name="save_playlist_title">Save as file</string>
+    <string name="add_playlist_title">"Add to playlist"</string>
+    <string name="action_shuffle_all">Shuffle all</string>
+    <string name="action_shuffle_album">Shuffle album</string>
+    <string name="action_shuffle_artist">Shuffle artist</string>
+    <string name="action_shuffle_playlist">Shuffle playlist</string>
+    <string name="action_clear_playing_queue">Clear playing queue</string>
+    <string name="action_go_to_start_directory">Go to start directory</string>
+    <string name="action_show_lyrics">Show lyrics</string>
+    <string name="last_opened">Last opened</string>
+    <string name="light_theme_name">Light</string>
+    <string name="dark_theme_name">Dark</string>
+    <string name="black_theme_name">Black (AMOLED)</string>
+    <string name="always">Always</string>
+    <string name="only_on_wifi">Only on Wi-Fi</string>
+    <string name="never">Never</string>
+    <string name="equalizer">Equalizer</string>
+    <string name="pref_header_colors">Colors</string>
+    <string name="pref_header_now_playing_screen">Now playing</string>
+    <string name="pref_title_general_theme">General theme</string>
+    <string name="pref_header_audio">Audio</string>
+    <string name="pref_header_general">General</string>
+    <string name="pref_header_images">Images</string>
+    <string name="pref_header_lockscreen">Lockscreen</string>
+    <string name="pref_header_notification">Notification</string>
+    <string name="pref_title_navigation_bar">Colored navigation bar</string>
+    <string name="pref_title_app_shortcuts">Colored app shortcuts</string>
+    <string name="pref_title_set_default_start_page">Start page</string>
+    <string name="pref_title_album_art_on_lockscreen">Show album cover</string>
+    <string name="pref_title_auto_download_artist_images">Auto download artist images</string>
+    <string name="pref_title_blurred_album_art">Blur album cover</string>
+    <string name="pref_title_colored_notification">Colored notification</string>
+    <string name="pref_title_classic_notification">Classic notification design</string>
+    <string name="pref_title_ignore_media_store_artwork">Ignore Media Store covers</string>
+    <string name="pref_title_gapless_playback">Gapless playback</string>
+    <string name="pref_title_force_square_album_art">Square album cover</string>
+    <string name="pref_title_opaque_toolbar_now_playing">Opaque toolbar</string>
+    <string name="pref_title_opaque_statusbar_now_playing">Opaque statusbar</string>
+    <string name="pref_title_larger_title_box_now_playing">Larger title box</string>
+    <string name="pref_title_alternative_progress_slider_now_playing">Alternative progress slider</string>
+    <string name="pref_title_playback_controller_card_now_playing">Show card below playback controls</string>
+    <string name="pref_title_colored_playback_controls_now_playing">Colored playback controls</string>
+    <string name="pref_title_audio_ducking">Reduce volume on focus loss</string>
+    <string name="no_equalizer">No equalizer found.</string>
+    <string name="no_audio_ID">"Play a song first, then try again."</string>
+    <string name="delete_action">Delete</string>
+    <string name="clear_action">Clear</string>
+    <string name="remove_action">Remove</string>
+    <string name="rename_action">Rename</string>
+    <string name="create_action">Create</string>
+    <string name="x_selected">%1$d selected</string>
+    <string name="select">Select</string>
+    <string name="default_str">Default</string>
+    <string name="primary_color">Primary color</string>
+    <string name="accent_color">Accent color</string>
+    <string name="primary_color_desc">The primary theme color, defaults to indigo.</string>
+    <string name="accent_color_desc">The accent theme color, defaults to pink.</string>
+    <string name="update_image">Update image</string>
+    <string name="playlist_empty_text">Empty playlist</string>
+    <string name="no_playlists">No playlists</string>
+    <string name="no_albums">No albums</string>
+    <string name="no_songs">No songs</string>
+    <string name="no_artists">No artists</string>
+    <string name="empty">Empty</string>
+    <string name="playlist_name_empty">Playlist name</string>
+    <string name="song">Song</string>
+    <string name="pref_only_lollipop">"Only available on Lollipop or above."</string>
+    <string name="pref_only_nougat">"Only available on Nougat 7.0 or above."</string>
+    <string name="pref_only_nougat_mr1">"Only available on Nougat 7.1 or above."</string>
+    <string name="pref_summary_album_art_on_lockscreen">Uses the current songs album cover as lockscreen wallpaper.</string>
+    <string name="pref_summary_blurred_album_art">Blurs the album cover on the lockscreen. Can cause problems with third party apps and widgets.</string>
+    <string name="pref_summary_classic_notification">Use the classic notification design.</string>
+    <string name="pref_summary_colored_notification">"Colors the notification in the album cover\u2019s vibrant color."</string>
+    <string name="pref_summary_gapless_playback">"Can cause playback issues on some devices."</string>
+    <string name="pref_summary_force_square_album_art">Album covers in the now playing view are always squared.</string>
+    <string name="pref_summary_opaque_toolbar_now_playing">Colors the toolbar.</string>
+    <string name="pref_summary_opaque_statusbar_now_playing">Colors the statusbar.</string>
+    <string name="pref_summary_larger_title_box_now_playing">The title box is higher.</string>
+    <string name="pref_summary_alternative_progress_slider_now_playing">Uses a progressbar which does not cover the album art instead of the default progress slider.</string>
+    <string name="pref_summary_playback_controller_card_now_playing">Shows a card below play/pause, skip, rewind, shuffle and repeat.</string>
+    <string name="pref_summary_ignore_media_store_artwork">Can increase the album cover quality but causes slower image loading times. Only enable this if you have problems with low resolution artworks.</string>
+    <string name="pref_summary_colored_playback_controls_now_playing">Colors play/pause, shuffle and repeat as well as the progress slider in the album cover\u2019s vibrant color.</string>
+    <string name="pref_summary_colored_navigation_bar">Colors the navigation bar in the primary color.</string>
+    <string name="pref_summary_colored_app_shortcuts">Colors the app shortcuts in the primary color.</string>
+    <string name="pref_summary_audio_ducking">Notifications, navigation etc.</string>
+    <string name="could_not_download_album_cover">"Couldn\u2019t download a matching album cover."</string>
+    <string name="search_hint">Search your library…</string>
+    <string name="rescanning_media">Rescanning media…</string>
+    <string name="favorites">Favorites</string>
+    <string name="last_added">Last added</string>
+    <string name="history">History</string>
+    <string name="my_top_tracks">My top tracks</string>
+    <string name="remove_cover">Remove cover</string>
+    <string name="download_from_last_fm">Download from Last.fm</string>
+    <string name="pick_from_local_storage">Pick from local storage</string>
+    <string name="web_search">Web search</string>
+    <string name="action_sleep_timer">Sleep timer</string>
+    <string name="action_set">Set</string>
+    <string name="cancel_current_timer">Cancel current timer</string>
+    <string name="sleep_timer_canceled">Sleep timer canceled.</string>
+    <string name="sleep_timer_set">Sleep timer set for %d minutes from now.</string>
+    <string name="action_new_playlist">New playlist…</string>
+    <string name="new_playlist_title">New playlist</string>
+    <string name="grid_size_1">1</string>
+    <string name="grid_size_2">2</string>
+    <string name="grid_size_3">3</string>
+    <string name="grid_size_4">4</string>
+    <string name="grid_size_5">5</string>
+    <string name="grid_size_6">6</string>
+    <string name="grid_size_7">7</string>
+    <string name="grid_size_8">8</string>
+    <string name="colored_footers">Colored footers</string>
+    <string name="special_thanks_to">Special thanks to</string>
+    <string name="changelog">Changelog</string>
+    <string name="licenses">Licenses</string>
+    <string name="permissions_denied">Permissions denied.</string>
+    <string name="permission_external_storage_denied">Permission to access external storage denied.</string>
+    <string name="back">back</string>
+    <string name="support_development">Support development</string>
+    <string name="thank_you">Thank you!</string>
+    <string name="restored_previous_purchases">Restored previous purchases.</string>
+    <string name="play_store_illustration_by">Play Store illustration by</string>
+    <string name="version">Version</string>
+    <string name="application">Application</string>
+    <string name="author">Author</string>
+    <string name="write_an_email">Write an email</string>
+    <string name="add_to_google_plus_circles">Add to Google Plus circles</string>
+    <string name="follow_on_twitter">Follow on Twitter</string>
+    <string name="fork_on_git_hub">Fork on GitHub</string>
+    <string name="visit_website">Visit website</string>
+    <string name="report_bugs">Report bugs</string>
+    <string name="report_bugs_summary">Report bugs or request new features.</string>
+    <string name="join_community">Join the Google Plus community</string>
+    <string name="join_community_summary">If you need help or have questions, the Lyrics Match community on Google Plus is a good place to go.</string>
+    <string name="translate">Translate</string>
+    <string name="translate_summary">Help translating Lyrics Match to your native language.</string>
+    <string name="rate_on_google_play">Rate</string>
+    <string name="rate_on_google_play_summary">Leave a positive rating on Google Play if you like Lyrics Match.</string>
+    <string name="donate">Donate</string>
+    <string name="donate_summary">If you think I deserve to get paid for my work, you can leave me a few dollars here.</string>
+    <string name="aidan_follestad_summary">For the theme engine and some other great stuff.</string>
+    <string name="michael_cook_summary">For the pretty material app icon.</string>
+    <string name="maarten_corpel_summary">For making the Play Store illustration and the empty album cover.</string>
+    <string name="aleksandar_tesic_summary">For helping me with the design.</string>
+    <string name="website">Website</string>
+    <string name="loading_products">Loading products…</string>
+    <string name="up_next">Up next</string>
+    <string name="pref_title_now_playing_screen_appearance">Appearance</string>
+    <string name="intro_label">Introduction</string>
+    <string name="press_back_again_to_exit_intro">Press back again to skip the intro.</string>
+    <string name="welcome_to_phonograph">"Welcome to Lyrics Match, a smart and attractive music player"</string>
+    <string name="open_playing_queue_instruction">Swipe the card in the now playing screen up to reveal the full playing queue.</string>
+    <string name="rearrange_playing_queue_instruction">Rearrange the playing queue by dragging a song from its track number.</string>
+    <string name="library">Library</string>
+    <string name="folders">Folders</string>
+    <string name="saved_playlist_to">Saved playlist to %s.</string>
+    <string name="failed_to_save_playlist">Failed to save playlist (%s).</string>
+    <string name="not_listed_in_media_store"><![CDATA[<b>%s</b> is not listed in the media store.]]></string>
+    <string name="nothing_to_scan">Nothing to scan.</string>
+    <string name="scanned_files">Scanned %1$d of %2$d files.</string>
+    <string name="could_not_scan_files">Could not scan %d files.</string>
+    <string name="listing_files">Listing files</string>
+    <string name="new_start_directory">%s is the new start directory.</string>
+    <string name="app_widget_big_name">Lyrics Match - Big</string>
+    <string name="app_widget_classic_name">Lyrics Match - Classic</string>
+    <string name="app_widget_small_name">Lyrics Match - Small</string>
+    <string name="report_an_issue">Report an issue</string>
+    <string name="bug_report_issue">Issue</string>
+    <string name="login">Login</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="device_info">Device info</string>
+    <string name="bug_report_use_account">Send using GitHub account</string>
+    <string name="bug_report_manual">Send manually</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="bug_report_no_title">Please enter an issue title</string>
+    <string name="bug_report_no_description">Please enter an issue description</string>
+    <string name="bug_report_no_username">Please enter your valid GitHub username</string>
+    <string name="bug_report_no_password">Please enter your valid GitHub password</string>
+    <string name="bug_report_uploading">Uploading report to GitHub…</string>
+    <string name="bug_report_failed">Unable to send report</string>
+    <string name="bug_report_failed_wrong_credentials">Wrong username or password</string>
+    <string name="bug_report_failed_invalid_token">Invalid access token. Please contact the app developer.</string>
+    <string name="bug_report_failed_issues_not_available">Issues are not enabled for the selected repository. Please contact the app developer.</string>
+    <string name="bug_report_failed_unknown">An unexpected error occurred. Please contact the app developer.</string>
+    <string name="copied_device_info_to_clipboard">Copied device info to clipboard.</string>
+    <string name="your_account_data_is_only_used_for_authentication">Your account data is only used for authentication.</string>
+    <string name="you_will_be_forwarded_to_the_issue_tracker_website">You will be forwarded to the issue tracker website.</string>
+    <!-- App Shortcuts -->
+    <string name="app_shortcut_shuffle_all_long">@string/action_shuffle_all</string>
+    <string name="app_shortcut_shuffle_all_short">Shuffle</string>
+    <string name="app_shortcut_top_tracks_long">@string/my_top_tracks</string>
+    <string name="app_shortcut_top_tracks_short">Top Tracks</string>
+    <string name="app_shortcut_last_added_long">@string/last_added</string>
+    <string name="app_shortcut_last_added_short">@string/last_added</string>
+    <string name="playlist_is_empty">Playlist is empty</string>
+
+
+
+
+
+
+    <string name="tap_to_view_lyrics">Tap here to view lyrics</string>
+    <string name="title_lyrics">Lyrics</string>
+    <string name="share">Share</string>
+    <string name="drawer_open_desc">Navigation Drawer is open</string>
+    <string name="drawer_closed_desc">Navigation Drawer is closed</string>
+    <string name="connection_error">Could not connect.</string>
+    <string name="no_refresh">No need to refresh</string>
+    <string name="cover_art_desc">Cover Art</string>
+    <string name="pref_20min_ignore">Ignore long tracks</string>
+    <string name="pref_20min_ignore_sum">Tracks longer than 20 minutes (like podcasts) are not considered songs</string>
+    <string name="pref_scrobbling_category">Scrobbling</string>
+    <string name="pref_about">About</string>
+    <string name="send_feedback">Send feedback</string>
+    <string name="local_title">Saved Lyrics</string>
+    <string name="settings_title">Settings</string>
+    <string name="save_action">Save</string>
+    <string name="lyrics_saved">Lyrics saved</string>
+    <string name="lyrics_removed">Lyrics removed from storage</string>
+
+    <string name="pref_auto_refresh_title">Automatically refresh lyrics</string>
+    <string name="pref_auto_refresh_summary">Lyrics will automatically refresh every time the music changes</string>
+    <string name="local_empty_database">You haven\'t saved any lyrics yet.</string>
+    <string name="pref_look_feel_category">Look and feel</string>
+    <string name="welcome">Lyrics Match!</string>
+    <string name="welcome2_sub">The lyrics you were looking for…\nRight here, right now.</string>
+    <string name="apps_desc">Works smooth in synchronizing lyrics.</string>
+    <string name="apps_desc_sub">If you experience issues with your player (e.g. Poweramp, GoneMAD or Spotify), make sure it has \"Scrobbling\" or \"Broadcast Status\" enabled.</string>
+    <string name="id_desc">Integration with your favorite Music</string>
+    <string name="id_desc_sub">1. Identify a song\n2. Share the results to Lyrics Match\n3. Enjoy your lyrics</string>
+    <string name="refresh_desc">When the song has changed…</string>
+    <string name="refresh_desc_sub">Tap this button. Lyrics Match will do the rest.</string>
+    <string name="pref_more_category">More</string>
+    <string name="first_launch">Start playing music on your device and hit refresh.</string>
+    <string name="share_prompt">Import from MusicID</string>
+    <string name="undo">Undo</string>
+    <string name="beta_dialog_content">
+1) Join the Google+ Community: \nhttps://plus.google.com/communities/115504114424315189412\n
+2) Sign up for the Beta: \nhttps://play.google.com/apps/testing/com.dragedy.playermusic.lyricspack
+    </string>
+    <string name="pager_arrow"><![CDATA[>]]></string>
+    <string name="skip">Skip</string>
+    <string name="pref_theme">Theme</string>
+    <string name="pref_notifications">Notifications</string>
+    <string name="defaut_theme">Amber</string>
+    <string name="dark_theme">Dark</string>
+    <string name="pref_notifications_sum">Get a discreet notification when the song changes</string>
+    <string name="pref_auto_save">Automatically save lyrics</string>
+    <string name="pref_auto_save_sum">All lyrics will be stored on your device</string>
+    <string name="pref_night_mode">Night Mode</string>
+    <string name="pref_night_mode_sum">Display a dark background at night</string>
+    <string name="scan_action">Scan Music</string>
+    <string name="warning">Warning</string>
+    <string name="content_providers_title">Scan music from…</string>
+    <string name="dl_progress">Downloading lyrics… %1$d/%2$d</string>
+    <string name="dl_finished">Download finished</string>
+    <string name="pref_providers">Additional lyrics sources</string>
+    <string name="pref_providers_sum">The more you select, the longer each download will take</string>
+    <string name="pref_beta">Become a beta tester</string>
+    <string name="pref_beta_sum">Get updates (new features, bug fixes, …) faster and report back via email</string>
+    <string name="scan_error_no_content">Could not find any music</string>
+    <string name="no_results_why"><u>Why?</u></string>
+    <string name="why_popup_text"><![CDATA[
+You were looking for the lyrics of \"%1$s\" by %2$s. Unfortunately Lyrics Match couldn\'t find them… <br/><br/>
+A few possible reasons why:<br/>
+<br/>
+• Is your music <strong>tagged</strong> properly? Lyrics Match cannot recognize tracks that aren\'t tagged. Edit tags through tag editor.<br/>
+• Check if your connection is working.<br/>
+• Perhaps this song isn\'t part of the main catalog. Have you checked the <strong>additional providers</strong> in the settings?<br/>
+• You might have found a bug. If so, please email us at info.dragedy@gmail.com.<br/>
+• Check if the date & time in of your device are set correctly.<br/>
+]]></string>
+    <string name="why_popup_title">Why doesn\'t it work?</string>
+    <string name="download_category">Downloads</string>
+    <string name="wearable_prompt">Open on wearable</string>
+    <string name="pref_opendyslexic">Use OpenDyslexic font</string>
+    <string name="pref_opendyslexic_sum">Use a special font created for readers with a reading disability</string>
+    <string name="wrong_musicID">Unsupported MusicID service</string>
+    <string name="pref_issues_sum">info.dragedy@gmail.com (English only)</string>
+    <string name="ignore_id3_toast">Tap the Refresh button to force a download</string>
+    <string name="from_id3">(Lyrics extracted from audio file)</string>
+    <string name="nighttime_start_dialog_title">Nighttime start</string>
+    <string name="nighttime_end_dialog_title">Nighttime end</string>
+    <string name="pref_force_screen_sum">Prevent the screen from turning off while reading lyrics</string>
+    <string name="pref_force_screen_on">Force screen on</string>
+    <string name="scan_error_permission_denied">Lyrics Match has been denied permission to scan your music</string>
+    <string name="id3_write_error">Failed to edit song metadata</string>
+    <string name="id3_write_success">Song metadata successfully edited</string>
+    <string name="id3_read_rationale">Lyrics Match needs this permission to read the lyrics and artworks available on this device</string>
+    <string name="permission_denied">(permission denied)</string>
+    <string name="id3_write_permission_error">App needs to be restarted to gain write permission</string>
+    <string name="resync_action">Resync</string>
+    <string name="uri_storage">This device</string>
+    <string name="uri_gmusic">Your Google Play Music library</string>
+    <string name="uri_spotify">Your Spotify Library</string>
+    <string name="spotify_library">Your saved tracks</string>
+    <string name="spotify_playlists">Your playlists</string>
+    <string name="source_punk">Punk Rock</string>
+    <string name="source_metal">Metal</string>
+    <string name="source_hip_hop">Hip Hop</string>
+    <string name="source_EDM">Electronic Dance Music</string>
+    <string name="source_japanese">Japanese</string>
+    <string name="source_sync">Synchronized Lyrics</string>
+    <string name="spotify_connection">Connecting to Spotify…</string>
+    <string name="full_text_action">Full text</string>
+    <string name="artworks_pref_title">Automatic artwork download</string>
+    <string name="artworks_pref_sum">May result in mobile data charges</string>
+    <string name="pref_lrc_sum">Highlight the words that are being sung - not all music players are supported</string>
+    <string name="pref_lrc">Synchronized lyrics</string>
+    <string name="red_theme">Red</string>
+    <string name="purple_theme">Purple</string>
+    <string name="indigo_theme">Indigo</string>
+    <string name="green_theme">Green</string>
+    <string name="lime_theme">Lime</string>
+    <string name="brown_theme">Brown</string>
+    <string name="ad_supported_title">Lyrics Match is ad-supported</string>
+    <string name="ad_supported_text">Ads allow us to pay the artists and rightholders for their work.\nWe hope you enjoy using Lyrics Match!</string>
+    <string name="about_read_ToS">Read our Terms of Service</string>
+    <string name="about_product_tour">Product Tour</string>
+    <string name="nl_title">One last thing.</string>
+    <string name="nl_instructions">For Lyrics Match to work with all players, some settings need to be changed.</string>
+    <string name="nl_settings_link">Click here to allow Lyrics Match to read music notification and display lyrics.</string>
+    <string name="rate_us">Rate the app</string>
+    <string name="romanize">Romanize</string>
+    <string name="musicid_no_match">No match ☹</string>
+    <string name="notification_access">Notification Access</string>
+    <string name="pref_lyrics_overlay_name">Lyrics overlay</string>
+    <string name="pref_lyrics_overlay_sum">A floating window that makes lyrics available outside the app</string>
+    <string name="pref_notification_action">Notification action</string>
+    <string name="pref_notification_action_launch">Launch the app</string>
+    <string name="notification_access_explanation"><![CDATA[
+This permission is only needed so that Lyrics Match can access your music metadata.<br/>
+Lyrics Match is not interested in reading your notifications and our privacy policy prevents us to.<br/>
+The good news is that Lyrics Match being open source, anyone can verify that for themselves! 😊<br/><br/>
+We thank you for your understanding!<br/><br/>
+- The Lyrics Match Team
+]]></string>
+
+    <string name="premium_title">Get Premium</string>
+    <string name="remove_ads_title">Remove ads</string>
+    <string name="subscription_monthly">Monthly</string>
+    <string name="subscription_yearly">Yearly</string>
+    <string name="premium_sum_incent">Get Premium to support the artists &amp; the team behind Lyrics Match!</string>
+    <string name="premium_ads_incent">No more ads!</string>
+    <string name="premium_themes_incent">*7* new themes</string>
+    <string name="premium_night_mode_incent">A *night mode* to rest your eyes at night</string>
+    <string name="premium_android_wear">Support for *Android Wear* watches</string>
+    <string name="premium_doubt">Unsure about getting a subscription? Shoot us an email: info.dragedy@gmail.com</string>
+    <string name="premium_thanks">Thanks for your support!</string>
+    <string name="about_crowdin">Help translate the app on Crowdin</string>
+    <string name="online_title">Online catalog</string>
+    <string name="yearly_sub_template">%s/year</string>
+    <string name="monthly_sub_template">%s/month</string>
+    <string name="buy_sub">Buy</string>
+    <string name="recent_tracks_title">Recent Tracks</string>
+    <string name="recents_empty_database">You haven\'t listened to anything yet.</string>
+    <string name="gmusic_import_securityException">Google Play Music needs to have been launched for this to work</string>
+    <string name="client_version_error">Please update the app</string>
+    <string name="why_is_this_a_subscription">Why is this a subscription?</string>
+    <string name="why_sub_explanation"><![CDATA[<p>Most of the subscription revenues go to the artists and right holders. Paying a one-time fee to get Lyrics Match Premium would be like paying Spotify a couple dollars and getting Premium for the rest of your life. It is unfortunately not possible.</p>
+    <p>If we took your money and you kept using the app for years, we\'d still need to pay the right holders for your consumption.</p>
+    Please understand that it\'s a requirement of the Music Industry that things work this way.]]>
+    </string>
+    <string name="vote_action">Vote</string>
+    <string name="user_submission_dialog_title">Rate these lyrics</string>
+    <string name="vote_for">These lyrics are correct</string>
+    <string name="vote_against">These lyrics are wrong</string>
+    <string name="vote_neutral">These lyrics need some corrections</string>
+    <string name="snackbar_ratings_QL">Enjoy using Lyrics Match?</string>
+    <string name="miui_autostart">MIUI users must first unblock the app</string>
+
+    <plurals name="scan_dialog">
+        <item quantity="one">Lyrics Match will now download the lyrics for a total of %1$d song.\
+        Make sure you have a stable connection for %2$d minute.</item>
+        <item quantity="other">Lyrics Match will now download the lyrics for a total of %1$d songs.\
+        Make sure you have a stable connection for at least %2$d minute(s).</item>
+    </plurals>
+
+    <plurals name="dl_finished_desc">
+        <item quantity="one">Downloaded the lyrics for %1$d song</item>
+        <item quantity="other">Downloaded the lyrics for %1$d songs</item>
+    </plurals>
+
+    <string-array name="vote_options" translatable="false">
+        <item>@string/vote_for</item>
+        <item>@string/vote_against</item>
+        <item>@string/vote_neutral</item>
+    </string-array>
+    <string-array name="nav_items">
+        <item>@string/title_lyrics</item>
+        <item>@string/recent_tracks_title</item>
+        <item>@string/local_title</item>
+        <item>-</item>
+        <item>@string/settings_title</item>
+        <item>@string/send_feedback</item>
+        <item>@string/pref_about</item>
+    </string-array>
+    <string-array name="providers">
+        <item>@string/source_punk</item>
+        <item>@string/source_metal</item>
+        <item>@string/source_hip_hop</item>
+        <item>@string/source_EDM</item>
+        <item>@string/source_japanese</item>
+    </string-array>
+    <string-array name="premium_incent" translatable="false">
+        <item>@string/premium_ads_incent</item>
+        <item>@string/premium_night_mode_incent</item>
+        <item>@string/premium_themes_incent</item>
+        <item>@string/premium_android_wear</item>
+    </string-array>
+    <string-array name="notifications">
+        <item>Disabled (default)</item>
+        <item>Enabled</item>
+        <item>Enabled (sticky)</item>
+    </string-array>
+    <string-array name="URI_labels">
+        <item>@string/uri_storage</item>
+        <item>@string/uri_gmusic</item>
+        <item>@string/uri_spotify</item>
+    </string-array>
+    <string-array name="spotify_options">
+        <item>@string/spotify_library</item>
+        <item>@string/spotify_playlists</item>
+    </string-array>
+    <string-array name="artwork_download">
+        <item>Always enabled</item>
+        <item>Only on WiFi</item>
+    </string-array>
+
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin_top_left_right">16dp</dimen>
+    <dimen name="tmp_now_playing_skip_rewind_margin">-8dp</dimen>
+
+    <dimen name="child_card_padding">0dp</dimen>
+    <dimen name="intro_fab_elevation">24dp</dimen>
+    <dimen name="upper_margin">20dp</dimen>
+</resources>

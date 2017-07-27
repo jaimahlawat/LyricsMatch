@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="what_do_you_want_to_share">Vad vill du dela?</string>
+    <string name="currently_listening_to_x_by_x">Nu spelas %1$s av %2$s</string>
+    <string name="the_audio_file">Ljudfilen</string>
+    <string name="do_you_want_to_set_x_as_ringtone">Vill du använda %1$s som din ringsignal?</string>
+    <string name="x_has_been_set_as_ringtone">"Lägg till %1$s som din ringsignal. "</string>
+    <string name="action_set_as_ringtone">Använd som ringsignal.</string>
+    <string name="action_share">Dela</string>
+    <string name="action_settings">"Inställningar"</string>
+    <string name="action_grant">Tillåt</string>
+    <string name="action_done">Färdig</string>
+    <string name="action_skip">Skippa</string>
+    <string name="action_about">Om</string>
+    <string name="action_show_intro">Visa intro</string>
+    <string name="action_clear_playlist">"Rensa spellista "</string>
+    <string name="action_playing_queue">Uppspelningskö</string>
+    <string name="action_add_to_favorites">"Lägg till i favoriter "</string>
+    <string name="action_remove_from_favorites">"Ta bort från favoriter "</string>
+    <string name="action_search">Sök</string>
+    <string name="action_play_next">Spela nästa</string>
+    <string name="action_play">Spela</string>
+    <string name="action_add_to_playing_queue">Lägg till i uppspelningskön</string>
+    <string name="action_remove_from_playing_queue">Ta bort från uppspelningskön</string>
+    <string name="action_add_to_playlist">Lägg till i spellista</string>
+    <string name="action_tag_editor">Tagredigerare</string>
+    <string name="action_delete_from_device">Radera från enhet</string>
+    <string name="action_details">Detaljer</string>
+    <string name="action_rename">Döp om</string>
+    <string name="action_delete">Radera</string>
+    <string name="action_scan">Skanna</string>
+    <string name="albums">Album</string>
+    <string name="artists">Artister</string>
+    <string name="songs">Låtar</string>
+    <string name="playlists">Spellistor</string>
+    <string name="unplayable_file">Urs\u00e4kta - ett problem uppstod vid spelningen av denna l\u00e5t</string>
+    <string name="biography_unavailable">Urs\u00e4kta, vi kunde inte hitta biografin f\u00f6r den h\u00e4r artisten</string>
+    <string name="biography">Biografi</string>
+    <string name="audio_focus_denied">Vi kunde inte hitta ljudfokus</string>
+    <string name="album">Album</string>
+    <string name="artist">Artist</string>
+    <string name="genre">Genre</string>
+    <string name="album_artist">Albumartist</string>
+    <string name="year">År</string>
+    <string name="track">Spår</string>
+    <string name="track_hint">"Spår"</string>
+    <string name="album_or_artist_empty">Textfältet för albumtitel eller artist är tomt.</string>
+    <string name="saving_changes">Sparar ändringar ...</string>
+    <string name="label_details">Detaljer</string>
+    <string name="label_file_name">Filnamn</string>
+    <string name="label_file_path">Sökväg</string>
+    <string name="label_file_size">Storlek</string>
+    <string name="label_file_format">Format</string>
+    <string name="label_track_length">Längd</string>
+    <string name="label_bit_rate">Bithastighet</string>
+    <string name="label_sampling_rate">Samplingsfrekvens</string>
+    <string name="action_go_to_artist">Gå till artist</string>
+    <string name="action_go_to_album">Gå till album</string>
+    <string name="label_playing_queue">Spelar kö</string>
+    <string name="save_as_playlist">Spara som spellista</string>
+    <string name="no_results">Inga resultat</string>
+    <string name="action_re_download_artist_image">Uppdatera artistbild</string>
+    <string name="updating">Uppdaterar ...</string>
+    <string name="added_title_to_playing_queue">"Lagt till 1 titel till spellistan."</string>
+    <string name="created_playlist_x">Spellista %1$s skapad</string>
+    <string name="deleted_playlist_x">Spellista %1$s raderad</string>
+    <string name="delete_playlist_x"><![CDATA[
+Vill du radera spellistan <b>%1$s</b>?
+    ]]></string>
+    <string name="delete_song_x"><![CDATA[
+Vill du radera låten <b>%1$s</b>?
+    ]]></string>
+    <string name="delete_x_songs"><![CDATA[
+Vill du radera <b>%1$d</b> låtar?
+    ]]></string>
+    <string name="delete_song_title">Radera låt</string>
+    <string name="delete_songs_title">Radera låtar</string>
+    <string name="rename_playlist_title">Döp om spellista</string>
+    <string name="delete_playlist_title">Radera spellista</string>
+    <string name="add_playlist_title">"Lägg till i spellista"</string>
+    <string name="last_opened">Senast öppnad</string>
+    <string name="light_theme_name">Ljus</string>
+    <string name="dark_theme_name">Mörk</string>
+    <string name="equalizer">Equalizer</string>
+    <string name="pref_title_general_theme">Allmänt tema</string>
+    <string name="pref_header_audio">Ljud</string>
+    <string name="pref_header_general">Allmänt</string>
+    <string name="pref_title_navigation_bar">Färgad navigeringslist</string>
+    <string name="pref_title_set_default_start_page">Startsida</string>
+    <string name="no_equalizer">Hittar ingen equalizer</string>
+    <string name="no_audio_ID">"Inget ljud-ID, spela något annat och försök igen."</string>
+    <string name="delete_action">Radera</string>
+    <string name="rename_action">Döp om</string>
+    <string name="select">Välj</string>
+    <string name="default_str">Standard</string>
+    <string name="primary_color">Grundfärg</string>
+    <string name="update_image">Uppdatera bild</string>
+    <string name="playlist_empty_text">Spellistan är tom</string>
+    <string name="no_playlists">Inga spellistor</string>
+    <string name="song">Låt</string>
+    <string name="pref_only_lollipop">"Enbart tillgänglig för Lollipop."</string>
+    <string name="pref_summary_colored_navigation_bar">I vilken vy navigeringslisten skall vara färgad</string>
+    <string name="search_hint">Sök i ditt bibliotek ...</string>
+    <string name="rescanning_media">Återskannar media ...</string>
+    <string name="new_playlist_title">Ny spellista</string>
+    <!-- App Shortcuts -->
+
+
+
+    <string name="title_lyrics">Låttexter</string>
+    <string name="share">Dela</string>
+
+    <string name="connection_error">Kunde inte ansluta.</string>
+    <string name="no_refresh">Inget behov av uppdatering</string>
+
+    <string name="pref_20min_ignore">Ignorera långa spår</string>
+    <string name="pref_20min_ignore_sum">Spår som är längre än 20 minuter (som podcasts) räknas inte som låtar</string>
+    <string name="pref_about">Om</string>
+    <string name="send_feedback">Skicka feedback</string>
+    <string name="local_title">Sparade texter</string>
+    <string name="settings_title">Inställningar</string>
+    <string name="save_action">Spara</string>
+    <string name="lyrics_saved">Låttexter sparade</string>
+    <string name="lyrics_removed">Lagrade låttexter borttagna</string>
+    <string name="remove_action">Ta bort</string>
+    <string name="pref_auto_refresh_title">Uppdatera låttexter automatiskt</string>
+    <string name="pref_auto_refresh_summary">Låttexter uppdateras automatiskt när musiken ändras</string>
+    <string name="local_empty_database">Du har inte sparat någon låttexter ännu.</string>
+    <string name="pref_look_feel_category">Utseende</string>
+    <string name="welcome">Välkommen till Lyrics Match!</string>
+    <string name="welcome2_sub">Texten du söker&#8230;\nHär och nu.</string>
+    <string name="apps_desc">Fungerar med alla dina appar</string>
+    <string name="apps_desc_sub">Om du upplever problem med din musikspelare (t.ex. Poweramp, GoneMAD eller Spotify), se till att den har \"Scrobbling\" eller \"Broadcast Status\" aktiverat.</string>
+    <string name="id_desc">Integration med dina favorit MusicID-appar.\n(Shazam™, SoundHound™, etc.)</string>
+    <string name="id_desc_sub">1. identifiera en song\n2. Dela resultatet till Lyrics Match\n3. Få tillbaka låttexten</string>
+    <string name="refresh_desc">När låten har ändrats&#8230;</string>
+    <string name="refresh_desc_sub">Tryck på knappen. Lyrics Match kommer att göra resten.</string>
+    <string name="pref_more_category">Mer</string>
+    <string name="first_launch">Börja spela musik på enheten och tryck på uppdatera.</string>
+    <string name="share_prompt">Importera från MusicID</string>
+    <string name="undo">Ångra</string>
+    <string name="beta_dialog_content">
+1) Gå med i Google+ gruppen: \nhttps://plus.google.com/communities/115504114424315189412\n 2) Registrera dig för beta versionen: \n https://play.google.com/apps/testing/com.dragedy.playermusic.lyricspack    </string>
+    <string name="skip">Hoppa över</string>
+    <string name="pref_theme">Tema</string>
+    <string name="pref_notifications">Aviseringar</string>
+    <string name="defaut_theme">Gul</string>
+    <string name="dark_theme">Mörkt</string>
+    <string name="pref_notifications_sum">Få ett diskret meddelande när låten ändras</string>
+    <string name="pref_auto_save">Spara låttexter automatiskt</string>
+    <string name="pref_auto_save_sum">Alla texter kommer att lagras på enheten</string>
+    <string name="pref_night_mode">Nattläge</string>
+    <string name="pref_night_mode_sum">Visa en mörk bakgrund på natten</string>
+    <string name="scan_action">Skanna musik</string>
+    <string name="warning">Varning</string>
+    <string name="content_providers_title">Skanna musik från&#8230;</string>
+    <string name="dl_progress">Laddar ner texter&#8230; %1$d/%2$d</string>
+    <string name="dl_finished">Hämtningen är färdig</string>
+    <string name="pref_providers">Ytterligare källor</string>
+    <string name="pref_providers_sum">Ju mer du väljer, desto längre tid tar varje nedladdning</string>
+    <string name="pref_beta">Bli betatestare</string>
+    <string name="pref_beta_sum">Få uppdateringar (nya funktioner, buggfixar, och så vidare) snabbare via email</string>
+    <string name="scan_error_no_content">Kunde inte hitta någon musik</string>
+    <string name="no_results_why"><u>Varför?</u></string>
+    <string name="why_popup_title">Varför fungerar det inte?</string>
+    <string name="download_category">Hämtade filer</string>
+    <string name="wearable_prompt">Öppna på wearable</string>
+    <string name="pref_opendyslexic">Använd OpenDyslexic typsnitt</string>
+    <string name="pref_opendyslexic_sum">Använd ett särskilt teckensnitt skapat för läsare med lässvårigheter</string>
+    <string name="wrong_musicID">Saknar stöd för MusicID-tjänsten</string>
+    <string name="pref_issues_sum">info.dragedy@gmail.com (endast engelska)</string>
+    <string name="ignore_id3_toast">Tryck på uppdateringsknappen för att tvinga fram en nedladdning</string>
+    <string name="from_id3">(Text extraherad från ljudfil)</string>
+    <string name="nighttime_start_dialog_title">Nattläge start</string>
+    <string name="nighttime_end_dialog_title">Nattläge slut</string>
+    <string name="pref_force_screen_sum">Hindra skärmen från att stängas av medans låttexter visas</string>
+    <string name="pref_force_screen_on">Håll skärmen igång</string>
+    <string name="scan_error_permission_denied">Lyrics Match har nekats tillstånd att skanna din musik</string>
+    <string name="id3_write_error">Det gick inte att redigera låt metadata</string>
+    <string name="id3_write_success">Redigering av metadata lyckades</string>
+    <string name="id3_read_rationale">Lyrics Match behöver denna behörighet för att läsa in låttexter och omslag från denna enhet</string>
+    <string name="permission_denied">(åtkomst nekad)</string>
+    <string name="id3_write_permission_error">Appen måste startas om för att få skrivbehörighet</string>
+    <string name="resync_action">Synkronisera om</string>
+    <string name="uri_storage">Denna enhet</string>
+    <string name="uri_gmusic">Ditt Google Play Music-bibliotek</string>
+    <string name="uri_spotify">Ditt Spotify bibliotek</string>
+    <string name="spotify_library">Dina lokala låtar</string>
+    <string name="spotify_playlists">Dina spellistor</string>
+    <string name="source_punk">Punk Rock</string>
+    <string name="source_metal">Metall</string>
+    <string name="source_hip_hop">Hip Hop</string>
+    <string name="source_EDM">Electronic Dance Music</string>
+    <string name="source_japanese">Japansk</string>
+    <string name="source_sync">Synkroniserade Låttexter</string>
+    <string name="spotify_connection">Ansluter till Spotify&#8230;</string>
+    <string name="full_text_action">Hela texten</string>
+    <string name="artworks_pref_title">Automatisk omslagsnedladdning</string>
+    <string name="artworks_pref_sum">Kan resultera i mobildata avgifter</string>
+    <string name="pref_lrc_sum">Markera de ord som sjungs - inte alla musikspelare stöds</string>
+    <string name="pref_lrc">Synkroniserade låttexter</string>
+    <string name="red_theme">Röd</string>
+    <string name="purple_theme">Lila</string>
+    <string name="indigo_theme">Indigo</string>
+    <string name="green_theme">Grön</string>
+    <string name="lime_theme">Lime</string>
+    <string name="brown_theme">Brun</string>
+    <string name="ad_supported_title">Lyrics Match är reklamstött</string>
+    <string name="ad_supported_text">Reklam låter oss betala artisterna rättsinnehavarna för deras arbete.\nVi hoppas du gillar Lyrics Match!</string>
+    <string name="about_read_ToS">Läs våra användarvillkor</string>
+    <string name="about_product_tour">Produktvisning</string>
+    <string name="nl_title">En sista sak.</string>
+    <string name="nl_instructions">För att Lyrics Match ska fungera ordentligt med alla musikspelare, behöver vissa inställningar ändras.</string>
+    <string name="nl_settings_link">Tillåta Lyrics Match att läsa mina notifikationer</string>
+    <string name="changelog">Vad är nytt?</string>
+    <string name="rate_us">Betygsätt appen</string>
+    <string name="premium_title">Skaffa Premium</string>
+    <string name="remove_ads_title">Ta bort annonser</string>
+    <string name="subscription_monthly">Månadsvis</string>
+    <string name="subscription_yearly">Årsvis</string>
+    <string name="premium_sum_incent">Skaffa Premium för att stödja artisterna &amp; teamet bakom Lyrics Match!</string>
+
+    <string name="premium_karaoke_incent">Ett exklusivt *karaoke-läge *</string>
+    <string name="premium_themes_incent">*7* nya teman</string>
+    <string name="premium_night_mode_incent">Ett nattläge för att vila ögonen</string>
+    <string name="premium_android_wear">Stöd för *Android Wear* klockor</string>
+    <string name="premium_doubt">Osäker på att få en prenumeration? Skicka ett mail: info.dragedy@gmail.com (endast engelska)</string>
+    <string name="premium_thanks">Tack för ditt stöd!</string>
+    <string name="about_crowdin">Hjälp till att översätta appen på Crowdin</string>
+    <string name="online_title">Online-katalogen</string>
+    <string name="yearly_sub_template">%s/år</string>
+    <string name="monthly_sub_template">%s/månad</string>
+    <string name="buy_sub">Köp</string>
+    <plurals name="scan_dialog">
+    <item quantity="one">Lyrics Match kommer nu att ladda ner texterna för totalt %1$d låt.\
+kontrollera att du har en stabil anslutning för minst %2$d minut.</item>
+        <item quantity="other">Lyrics Match kommer nu att ladda ner texterna för totalt %1$d låtar.\
+Kontrollera att du har en stabil anslutning för minst %2$d minuter.</item>
+    </plurals>
+    <plurals name="dl_finished_desc">
+        <item quantity="one">Hämtade texten för %1$d låt</item>
+        <item quantity="other">Hämtade texten för %1$d låtar</item>
+    </plurals>
+    <string-array name="notifications">
+        <item>Inaktiverad (standard)</item>
+        <item>Aktiverad</item>
+        <item>Aktiverad (klistrad)</item>
+    </string-array>
+    <string-array name="artwork_download">
+        <item>Alltid igång</item>
+        <item>Bara på WiFi</item>
+    </string-array>
+</resources>

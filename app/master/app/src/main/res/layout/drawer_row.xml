@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * This file is part of QuickLyric
+  ~  * Copyright © 2017 QuickLyric SPRL
+  ~  *
+  ~  * QuickLyric is free software: you can redistribute it and/or modify
+  ~  * it under the terms of the GNU General Public License as published by
+  ~  * the Free Software Foundation, either version 3 of the License, or
+  ~  * (at your option) any later version.
+  ~  *
+  ~  * QuickLyric is distributed in the hope that it will be useful,
+  ~  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  * GNU General Public License for more details.
+  ~  * You should have received a copy of the GNU General Public License
+  ~  * along with QuickLyric.  If not, see <http://www.gnu.org/licenses/>.
+  ~  */
+  -->
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerlist_row_text"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/drawer_row_height"
+    tools:text="test"
+    android:layout_gravity="center"
+    android:gravity="center_vertical"
+    android:paddingLeft="16.0dip"
+    android:paddingRight="16.0dip"
+    android:fontFamily="roboto-medium"
+    android:textSize="14sp"
+    android:textColor="?android:attr/textColorPrimary"
+    android:minHeight="@dimen/drawer_row_height"
+    android:singleLine="true"
+    android:drawablePadding="32dp" />

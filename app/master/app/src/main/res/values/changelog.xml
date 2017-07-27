@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * This file is part of QuickLyric
+  ~  * Copyright © 2017 QuickLyric SPRL
+  ~  *
+  ~  * QuickLyric is free software: you can redistribute it and/or modify
+  ~  * it under the terms of the GNU General Public License as published by
+  ~  * the Free Software Foundation, either version 3 of the License, or
+  ~  * (at your option) any later version.
+  ~  *
+  ~  * QuickLyric is distributed in the hope that it will be useful,
+  ~  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  * GNU General Public License for more details.
+  ~  * You should have received a copy of the GNU General Public License
+  ~  * along with QuickLyric.  If not, see <http://www.gnu.org/licenses/>.
+  ~  */
+  -->
+
+<resources>
+    <string-array name="changelog">
+        <item><![CDATA[139§• Support for additional music players like Napster<br/>• Crash fixes, bug fixes<br/>• Other Improvements the recovery when the QuickLyric service gets killed (if you had issues where the app wouldn\'t detect your music before this update, please reboot your device)]]></item>
+        <item><![CDATA[138§• Handle bug where the Google Play Music scan fails<br/>• Show beautiful material art when no artwork is available<br/>• Fix bug where the app would blink during launch for some users<br/>• Improve the recovery when the QuickLyric service gets killed (if you had issues where the app wouldn\'t detect your music before this update, please reboot your device)]]></item>
+        <item><![CDATA[132§• Expanded lyrics catalog thanks to user submissions<br/>• New round icon for supported devices<br/>• The most active users will get a discreet invitation to review the app<br/>• Improved support for opening the app directly from a music player]]></item>
+        <item><![CDATA[130§• Huge improvements to the track detection when switching between players<br/>• Fixed the issue where Spotify would send QuickLyric the wrong artwork<br/>• Added artwork detection for KitKat (thanks to Open Source contributor Steve Myers for these!)<br/>• QuickLyric 2.1 is much, much faster and more stable<br/>• Added the groundwork for user-submitted lyrics and user-ratings (this feature will be rolling out progressively)<br/>• Synchronized lyrics are now available for a lot more tracks]]></item>
+        <item><![CDATA[128§• Finally fix connection issues for older devices<br/>• Fixed some rare crashes<br/>• Improve performances<br/>• Added an explanation as to why Premium is not available as a one-time purchase]]></item>
+        <item><![CDATA[104§• Fix issues with artwork not always appearing<br/>• Fix Search not working<br/>• Fix synchronized lyrics not being on by default]]></item>
+        <item><![CDATA[103§• Fix issues for users attempting to buy a subscription]]></item>
+        <item><![CDATA[90§• Show copyright and writer credits<br/>• Prevent youtube notifications from triggering notifications<br/>• Fix search bar appearance<br/>• Fix bug for Android Wear users<br/>• Make Android Wear support paid<br/>• Fix issue where the wrong artwork would be displayed<br/>• Crash fixes]]></item>
+        <item><![CDATA[89§• New launch screen<br/>• Crash fixes]]></item>
+        <item><![CDATA[87§• Adjusted the artwork framing<br/>• Switched to HTTP2 for a faster, better experience<br/>• Made the APK lighter<br/>• Fixed sync issues, crashes and some minor bugs]]></item>
+        <item><![CDATA[86§• Fixed a critical bug that broke player compatibility. You may need to restart your device. Apologies for the inconvenience.]]></item>
+        <item><![CDATA[85§• Fixed a timing issue with some synchronized lyrics<br/>• Artwork is now being imported from your player instead of being downloaded<br/>• Fixed dialog colors in Night Mode <br/>• Crash fixes and translation import]]></item>
+        <item><![CDATA[84§• New strings to be translated (again)<br/>• Pressing back on the saved lyrics screen won\'t close the app anymore<br/>• Improved overall animations <br/>• Fixed a couple of reported crashes]]></item>
+        <item><![CDATA[83§• New changelog pop-up dialog<br/>• New strings added on Crowdin<br/>• Enhanced compatibility with players like BlackPlayer or PowerAmp<br/>• Corrected bug where searching lyrics with non-standard characters would cause issues<br/>• Fixed important memory leaks]]></item>
+    </string-array>
+</resources>

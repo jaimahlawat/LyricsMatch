@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * This file is part of QuickLyric
+  ~  * Copyright © 2017 QuickLyric SPRL
+  ~  *
+  ~  * QuickLyric is free software: you can redistribute it and/or modify
+  ~  * it under the terms of the GNU General Public License as published by
+  ~  * the Free Software Foundation, either version 3 of the License, or
+  ~  * (at your option) any later version.
+  ~  *
+  ~  * QuickLyric is distributed in the hope that it will be useful,
+  ~  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  * GNU General Public License for more details.
+  ~  * You should have received a copy of the GNU General Public License
+  ~  * along with QuickLyric.  If not, see <http://www.gnu.org/licenses/>.
+  ~  */
+  -->
+
+<com.dragedy.playermusic.lyricspack.view.ControllableAppBarLayout
+    android:id="@+id/appbar"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/app_bar_layout_height"
+    android:background="@null"
+    android:fitsSystemWindows="true"
+    android:theme="@style/actionBar.QuickLyric"
+    app:layout_behavior="com.dragedy.playermusic.lyricspack.utils.AppBarBehavior">
+
+    <android.support.design.widget.CollapsingToolbarLayout
+        android:id="@+id/toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_bar_layout_height"
+        android:fitsSystemWindows="true"
+        app:contentScrim="?attr/colorPrimary"
+        app:expandedTitleMarginBottom="66dp"
+        app:expandedTitleMarginStart="60dp"
+        app:expandedTitleTextAppearance="@style/TextAppearance.Invisible"
+        app:layout_scrollFlags="scroll|exitUntilCollapsed"
+        app:statusBarScrim="?attr/colorPrimaryDark">
+
+        <com.dragedy.playermusic.lyricspack.view.FadeInNetworkImageView
+            android:id="@+id/cover"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/empty_layer"
+            android:contentDescription="@string/cover_art_desc"
+            android:fitsSystemWindows="true"
+            android:scaleType="matrix"
+            app:layout_collapseMode="parallax"
+            app:layout_collapseParallaxMultiplier="0.5"/>
+
+        <ImageView
+            android:id="@+id/top_gradient"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_gravity="top"
+            android:fitsSystemWindows="true"
+            android:src="@drawable/gradient_overlay_top"
+            app:layout_collapseMode="pin"/>
+
+        <ImageView
+            android:id="@+id/bottom_gradient"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:src="@drawable/gradient_overlay_bottom"/>
+
+        <EditText
+            android:id="@+id/song"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:layout_marginBottom="27dp"
+            android:layout_marginLeft="12dp"
+            android:background="@android:color/transparent"
+            android:editable="false"
+            android:ellipsize="end"
+            android:inputType="none"
+            android:paddingEnd="26dp"
+            android:paddingRight="26dp"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="?android:textColorPrimary"
+            tools:ignore="Deprecated,RtlSymmetry"/>
+
+        <EditText
+            android:id="@+id/artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|bottom"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="12dp"
+            android:background="@android:color/transparent"
+            android:editable="false"
+            android:ellipsize="end"
+            android:inputType="none"
+            android:paddingEnd="26dp"
+            android:paddingRight="26dp"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:textColor="?android:textColorSecondary"
+            tools:ignore="Deprecated,RtlSymmetry"/>
+
+        <ImageButton
+            android:id="@+id/edit_tags_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_margin="4dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:padding="10dp"
+            android:src="@drawable/ic_edit"/>
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@android:color/transparent"
+            android:focusable="false"
+            app:layout_collapseMode="pin"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+    </android.support.design.widget.CollapsingToolbarLayout>
+</com.dragedy.playermusic.lyricspack.view.ControllableAppBarLayout>

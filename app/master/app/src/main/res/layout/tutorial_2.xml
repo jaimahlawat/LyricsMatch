@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * This file is part of QuickLyric
+  ~  * Copyright © 2017 QuickLyric SPRL
+  ~  *
+  ~  * QuickLyric is free software: you can redistribute it and/or modify
+  ~  * it under the terms of the GNU General Public License as published by
+  ~  * the Free Software Foundation, either version 3 of the License, or
+  ~  * (at your option) any later version.
+  ~  *
+  ~  * QuickLyric is distributed in the hope that it will be useful,
+  ~  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  * GNU General Public License for more details.
+  ~  * You should have received a copy of the GNU General Public License
+  ~  * along with QuickLyric.  If not, see <http://www.gnu.org/licenses/>.
+  ~  */
+  -->
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/below"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:layout_marginBottomPercent="10%">
+
+        <TextView
+            android:id="@+id/textView2_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/refresh_desc"
+            android:textAppearance="?android:attr/textAppearanceLargeInverse"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/textView2_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/textView2_a"
+            android:layout_alignRight="@id/textView2_a"
+            android:layout_below="@id/textView2_a"
+            android:text="@string/refresh_desc_sub"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="?android:attr/textColorPrimaryInverse"/>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/below"
+        android:clipChildren="false"
+        android:layout_centerInParent="true"
+        app:layout_marginPercent="8%">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/big_fab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/demo_refresh"
+            android:layout_gravity="center"
+            app:borderWidth="0dp"
+            android:theme="@style/Theme.QuickLyric"
+            app:elevation="@dimen/intro_fab_elevation"
+            app:rippleColor="@color/accent"/>
+    </FrameLayout>
+
+
+</android.support.percent.PercentRelativeLayout>
