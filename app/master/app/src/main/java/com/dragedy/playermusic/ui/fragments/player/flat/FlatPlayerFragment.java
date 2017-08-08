@@ -3,7 +3,6 @@ package com.dragedy.playermusic.ui.fragments.player.flat;
 import android.animation.Animator;
 import android.animation.AnimatorSet;
 import android.app.Activity;
-import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
@@ -23,7 +22,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 import android.widget.ImageView;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.dragedy.playermusic.R;
@@ -33,7 +31,6 @@ import com.dragedy.playermusic.dialogs.LyricsDialog;
 import com.dragedy.playermusic.dialogs.SongShareDialog;
 import com.dragedy.playermusic.helper.MusicPlayerRemote;
 import com.dragedy.playermusic.helper.menu.SongMenuHelper;
-import com.dragedy.playermusic.lyricspack.MainActivity;
 import com.dragedy.playermusic.model.Song;
 import com.dragedy.playermusic.ui.activities.base.AbsSlidingMusicPanelActivity;
 import com.dragedy.playermusic.ui.fragments.player.AbsPlayerFragment;
@@ -72,7 +69,7 @@ public class FlatPlayerFragment extends AbsPlayerFragment implements PlayerAlbum
     Toolbar toolbar;
     @Nullable
     @BindView(R.id.player_sliding_layout)
-    RelativeLayout slidingUpPanelLayout;
+    SlidingUpPanelLayout slidingUpPanelLayout;
     @BindView(R.id.player_recycler_view)
     RecyclerView recyclerView;
     @BindView(R.id.player_queue_sub_header)
@@ -119,16 +116,16 @@ public class FlatPlayerFragment extends AbsPlayerFragment implements PlayerAlbum
 
         setUpPlayerToolbar();
         setUpSubFragments();
-        setUplyricsView();
+
 
         setUpRecyclerView();
 
 
 
-       /* if (slidingUpPanelLayout != null) {
+        if (slidingUpPanelLayout != null) {
             slidingUpPanelLayout.addPanelSlideListener(this);
             slidingUpPanelLayout.setAntiDragView(view.findViewById(R.id.draggable_area));
-        }*/
+        }
 
         view.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
             @Override
@@ -141,9 +138,9 @@ public class FlatPlayerFragment extends AbsPlayerFragment implements PlayerAlbum
 
     @Override
     public void onDestroyView() {
-     /*   if (slidingUpPanelLayout != null) {
+       if (slidingUpPanelLayout != null) {
             slidingUpPanelLayout.removePanelSlideListener(this);
-        }*/
+        }
         if (recyclerViewDragDropManager != null) {
             recyclerViewDragDropManager.release();
             recyclerViewDragDropManager = null;
@@ -201,16 +198,16 @@ public class FlatPlayerFragment extends AbsPlayerFragment implements PlayerAlbum
 
     private void updateQueue() {
         playingQueueAdapter.swapDataSet(MusicPlayerRemote.getPlayingQueue(), MusicPlayerRemote.getPosition());
-     /*   if (slidingUpPanelLayout == null || slidingUpPanelLayout.getPanelState() == SlidingUpPanelLayout.PanelState.COLLAPSED) {
+        if (slidingUpPanelLayout == null || slidingUpPanelLayout.getPanelState() == SlidingUpPanelLayout.PanelState.COLLAPSED) {
             resetToCurrentPosition();
-        }*/
+        }
     }
 
     private void updateQueuePosition() {
         playingQueueAdapter.setCurrent(MusicPlayerRemote.getPosition());
-      /*  if (slidingUpPanelLayout == null || slidingUpPanelLayout.getPanelState() == SlidingUpPanelLayout.PanelState.COLLAPSED) {
+        if (slidingUpPanelLayout == null || slidingUpPanelLayout.getPanelState() == SlidingUpPanelLayout.PanelState.COLLAPSED) {
             resetToCurrentPosition();
-        }*/
+        }
     }
 
     @SuppressWarnings("ConstantConditions")
@@ -226,19 +223,6 @@ public class FlatPlayerFragment extends AbsPlayerFragment implements PlayerAlbum
     }
 
 //lyrics view
-    private void setUplyricsView()
-
-    {
-        playerQueueSubHeader.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(getActivity(), MainActivity.class);
-                startActivity(i);
-            }
-        });
-
-
-    }
 
     private void setUpPlayerToolbar() {
         toolbar.inflateMenu(R.menu.menu_player);
@@ -404,13 +388,13 @@ public class FlatPlayerFragment extends AbsPlayerFragment implements PlayerAlbum
 
     @Override
     public boolean onBackPressed() {
-       // boolean wasExpanded = false;
-       /* if (slidingUpPanelLayout != null) {
+        boolean wasExpanded = false;
+        if (slidingUpPanelLayout != null) {
             wasExpanded = slidingUpPanelLayout.getPanelState() == SlidingUpPanelLayout.PanelState.EXPANDED;
             slidingUpPanelLayout.setPanelState(SlidingUpPanelLayout.PanelState.COLLAPSED);
-        }*/
+        }
 
-        return false;
+        return wasExpanded;
     }
 
     @Override
@@ -437,7 +421,7 @@ public class FlatPlayerFragment extends AbsPlayerFragment implements PlayerAlbum
                 break;
             case ANCHORED:
                 //noinspection ConstantConditions
-           //     slidingUpPanelLayout.setPanelState(SlidingUpPanelLayout.PanelState.COLLAPSED); // this fixes a bug where the panel would get stuck for some reason
+              slidingUpPanelLayout.setPanelState(SlidingUpPanelLayout.PanelState.COLLAPSED); // this fixes a bug where the panel would get stuck for some reason
                 break;
         }
     }
@@ -516,11 +500,11 @@ public class FlatPlayerFragment extends AbsPlayerFragment implements PlayerAlbum
                 @Override
                 public void onClick(View v) {
                     // toggle the panel
-                /*    if (fragment.slidingUpPanelLayout.getPanelState() == SlidingUpPanelLayout.PanelState.COLLAPSED) {
+                   if (fragment.slidingUpPanelLayout.getPanelState() == SlidingUpPanelLayout.PanelState.COLLAPSED) {
                         fragment.slidingUpPanelLayout.setPanelState(SlidingUpPanelLayout.PanelState.EXPANDED);
                     } else if (fragment.slidingUpPanelLayout.getPanelState() == SlidingUpPanelLayout.PanelState.EXPANDED) {
                         fragment.slidingUpPanelLayout.setPanelState(SlidingUpPanelLayout.PanelState.COLLAPSED);
-                    }*/
+                    }
                 }
             });
             currentSongViewHolder.menu.setOnClickListener(new SongMenuHelper.OnClickSongMenu((AppCompatActivity) fragment.getActivity()) {
@@ -558,7 +542,7 @@ public class FlatPlayerFragment extends AbsPlayerFragment implements PlayerAlbum
                 albumCoverContainer.getLayoutParams().height = albumCoverContainer.getHeight() - (minPanelHeight - availablePanelHeight);
                 albumCoverContainer.forceSquare(false);
             }
-          //  fragment.slidingUpPanelLayout.setPanelHeight(Math.max(minPanelHeight, availablePanelHeight));
+           fragment.slidingUpPanelLayout.setPanelHeight(Math.max(minPanelHeight, availablePanelHeight));
 
             ((AbsSlidingMusicPanelActivity) fragment.getActivity()).setAntiDragView(fragment.slidingUpPanelLayout.findViewById(R.id.player_panel));
         }

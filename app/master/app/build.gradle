@@ -1,11 +1,21 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+        mavenCentral()
+    }
+
+    dependencies {
+        //noinspection GradleDynamicVersion
+        classpath 'io.fabric.tools:gradle:1.+'
+        classpath 'com.jakewharton.hugo:hugo-plugin:1.2.1'
+    }
+}
+
 apply plugin: 'com.android.application'
 apply plugin: 'io.fabric'
 apply plugin: 'com.jakewharton.hugo'
-apply from: 'chromaprint.gradle'
 
 repositories {
-    mavenCentral()
-    jcenter()
     maven { url 'https://maven.fabric.io/public' }
     maven { url "https://jitpack.io" }
     maven {
@@ -14,34 +24,9 @@ repositories {
     }
 }
 
-buildscript {
-    repositories {
-        mavenCentral()
-        jcenter()
-        maven { url 'https://maven.fabric.io/public' }
-
-    }
-
-    dependencies {
-        //noinspection GradleDynamicVersion
-        classpath 'com.android.tools.build:gradle:2.3.1'
-        classpath 'io.fabric.tools:gradle:1.+'
-        classpath 'com.jakewharton.hugo:hugo-plugin:1.2.1'
-        classpath 'org.ajoberstar:gradle-git:1.1.0'
-    }
-}
-
 android {
-
-    sourceSets {
-        main {
-            assets.srcDirs = ['assets']
-        }
-    }
     compileSdkVersion 25
     buildToolsVersion '25.0.3'
-    useLibrary 'org.apache.http.legacy'
-
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 25
@@ -50,16 +35,9 @@ android {
         vectorDrawables.useSupportLibrary = true
 
         applicationId "com.dragedy.playermusic"
-        versionCode 30
-        versionName "1.7"
+        versionCode 33
+        versionName "1.8.2"
     }
-
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_7
-        targetCompatibility JavaVersion.VERSION_1_7
-    }
-
-
     buildTypes {
         release {
             minifyEnabled true
@@ -69,7 +47,7 @@ android {
         debug {
             applicationIdSuffix '.debug'
             versionNameSuffix ' DEBUG'
-            multiDexEnabled true
+
             ext.enableCrashlytics = false // Disable fabric build ID generation for debug builds
         }
     }
@@ -79,11 +57,8 @@ android {
     }
     lintOptions {
         disable 'MissingTranslation'
-        disable 'InvalidPackage', 'UnusedAttribute', 'GradleDynamicVersion', 'MissingQuantity', 'ExtraTranslation'
+        disable 'InvalidPackage'
         abortOnError false
-    }
-    aaptOptions {
-        cruncherEnabled false
     }
 }
 
@@ -94,10 +69,6 @@ ext {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
-
-    androidTestCompile 'com.android.support.test:runner:0.5'
-    androidTestCompile 'com.android.support.test:rules:0.5'
-    androidTestCompile 'com.android.support:support-annotations:25.3.1'
 
     compile('com.crashlytics.sdk.android:crashlytics:2.6.2@aar') {
         transitive = true
@@ -137,25 +108,7 @@ dependencies {
     compile 'com.github.kabouzeid:AndroidSlidingUpPanel:3.3.0-kmod3'
     compile 'com.squareup.retrofit2:retrofit:2.2.0'
     compile 'com.squareup.retrofit2:converter-gson:2.2.0'
-    compile 'com.android.support:multidex:1.0.1'
-    compile 'com.github.bumptech.glide:glide:3.7.0'
-    compile 'org.greenrobot:eventbus:3.0.0'
-    //noinspection GradleDependency
-    compile 'com.github.medyo:android-about-page:1.+'
-    compile 'com.balysv:material-ripple:1.0.2'
-    compile 'com.android.volley:volley:1.+'
-    compile 'org.jraf:android-switch-backport:2.0.1'
-    compile 'com.mcxiaoke.viewpagerindicator:library:2.4.1'
-    compile 'com.wdullaer:materialdatetimepicker:1.4.2'
-    compile 'com.miguelcatalan:materialsearchview:1.4.0'
-
-    compile 'org.jsoup:jsoup:1.8.3'
-    compile 'com.zzhoujay.materialcolors:materialcolors:1.0.0'
-    compile 'com.squareup.okhttp3:okhttp:3.6.0'
-    compile 'com.github.geecko86:SpotifyApi:6'
-
-
-
+    //noinspection GradleDynamicVersion
     compile 'com.anjlab.android.iab.v3:library:1.0.+'
     compile 'de.psdev.licensesdialog:licensesdialog:1.8.1'
     compile 'com.github.bumptech.glide:glide:3.8.0-SNAPSHOT'
@@ -168,6 +121,3 @@ dependencies {
     compile 'com.jakewharton:butterknife:8.5.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
 }
-
-
-preBuild.dependsOn(['compileChromaprint'])

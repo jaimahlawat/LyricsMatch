@@ -33,12 +33,4 @@
         <item name="android:progressBackgroundTint">@android:color/transparent</item>
     </style>
 
-    <style name="actionBar.QuickLyric" parent="Base.ThemeOverlay.AppCompat.Dark.ActionBar">
-        <item name="android:actionBarItemBackground">?android:attr/selectableItemBackgroundBorderless</item>
-    </style>
-
-    <style name="searchSuggestionItemStyle" parent="Widget.AppCompat.DropDownItem.Spinner">
-        <item name="android:textColor">@color/abc_secondary_text_material_light</item>
-    </style>
-
 </resources>

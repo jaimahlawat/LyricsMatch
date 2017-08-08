@@ -358,7 +358,7 @@ public class MainActivity extends AbsSlidingMusicPanelActivity {
     @Override
     public void onPanelCollapsed(View view) {
         super.onPanelCollapsed(view);
-        drawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_UNLOCKED);
+        drawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_CLOSED);
     }
 
     private boolean checkShowIntro() {

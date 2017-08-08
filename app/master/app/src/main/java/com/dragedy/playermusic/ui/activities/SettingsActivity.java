@@ -127,7 +127,7 @@ public class SettingsActivity extends AbsBaseActivity implements ColorChooserDia
             addPreferencesFromResource(R.xml.pref_general);
             addPreferencesFromResource(R.xml.pref_colors);
             addPreferencesFromResource(R.xml.pref_notification);
-            addPreferencesFromResource(R.xml.pref_now_playing_screen);
+           // addPreferencesFromResource(R.xml.pref_now_playing_screen);
             addPreferencesFromResource(R.xml.pref_images);
             addPreferencesFromResource(R.xml.pref_lockscreen);
             addPreferencesFromResource(R.xml.pref_audio);
@@ -304,7 +304,7 @@ public class SettingsActivity extends AbsBaseActivity implements ColorChooserDia
                 }
             });
 
-            updateNowPlayingScreenSummary();
+           // updateNowPlayingScreenSummary();
         }
 
         private boolean hasEqualizer() {
@@ -318,13 +318,13 @@ public class SettingsActivity extends AbsBaseActivity implements ColorChooserDia
         public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {
             switch (key) {
                 case PreferenceUtil.NOW_PLAYING_SCREEN_ID:
-                    updateNowPlayingScreenSummary();
+                 //   updateNowPlayingScreenSummary();
                     break;
             }
         }
 
-        private void updateNowPlayingScreenSummary() {
-            findPreference("now_playing_screen_id").setSummary(PreferenceUtil.getInstance(getActivity()).getNowPlayingScreen().titleRes);
-        }
+      // private void updateNowPlayingScreenSummary() {
+          //  findPreference("now_playing_screen_id").setSummary(PreferenceUtil.getInstance(getActivity()).getNowPlayingScreen().titleRes);
+       // }
     }
 }
